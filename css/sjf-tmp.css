@@ -1,8 +1,6 @@
 /*
 
-TemplateMo 581 Kind Heart Charity
-
-https://templatemo.com/tm-581-kind-heart-charity
+Fajar Firmansyah "IT SJF"
 
 */
 
@@ -1629,7 +1627,38 @@ blockquote::before {
     margin-bottom: 10px;
   }
 
-  
+  .koran{
+    /*jumlah column*/
+    -webkit-column-count: 3; /* support Chrome, Safari, Opera */
+    -moz-column-count: 3; /* support Firefox */
+    column-count : 3;
+
+    /*lebar column*/
+    -webkit-column-width: 100px; /* support Chrome, Safari, Opera */
+    -moz-column-width: 100px; /* support Firefox */
+    column-width :100px;
+
+    /*jarak column dengan column yang lain*/
+    -webkit-column-gap : 0px;
+    -moz-column-gap : 0px;
+    column-gap : 0px;
+
+    /*ketebalan garis*/
+    -webkit-column-rule-width : 1px;
+    -moz-column-rule-width : 1px;
+    column-rule-width : 1px;
+
+    /*pengaturan garis dengan format nilai jenis_garis warna*/
+    -webkit-column-rule : 1px solid blue;
+    -moz-column-rule : 1px solid blue;
+    column-rule : 1px solid blue;
+
+    /*mengatur span column*/
+    -webkit-column-span :all;
+    -moz-column-span :all;
+    column-span :all;
+  }
+}
 
 @media screen and (max-width: 580px) {
   .hero-section-full-height,
